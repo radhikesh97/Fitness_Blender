@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body{
+margin: 0;
+padding: 0;
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+//background-color: rgba(100,100,255,0.3);
+//background-size: cover;
+//background-position: center;
+//font-family: sans-serif;
+background-attachment: fixed; 
+}
+
+.loginbox{
+width: 400px;
+height: 720px;
+background: #000;
+color: #fff;
+top: 90%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 50px 30px;
+}
+
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+   border: none;
+   outline: none;
+   height: 40px;
+   font-size: 18px;
+   border-radius: 10px;
+}
+#abc{
+float: right;
+width: 100px;
+height: 50px;
+background-color: yellow;
+}
+
+        </style>
+    </head>
+    <body>
+	<a href = "home.html"> <button id="abc"> <b>Logout</b> </button></a>
+      <div class="loginbox">
+	<img src="download.png" class="avatar">
+	<h1> PLEASE ENTER THE FOLLOWING DETAILS IN ORDER TO SEE YOUR NUTRITION DETAILS </h1>
+	<form name="newForm" action="/cgi-bin/bmi.py" onsubmit="return validateForm()" method="GET">
+	<p> AGE(*) </p>
+        <input type="text" name="age1" placeholder="Enter your age" onKeyup="numbersOnly(this)" required>
+	<p> Gender(*) </p>
+        Male: <input type="radio" name="ip" value="male" required>
+		Female: <input type="radio" name="ip" value="female" required>
+	<p> HEIGHT(*)(in cms) </p>
+        <input type="text" name="uheight" placeholder="Enter your height" onKeyup="numbersOnly(this)" required>
+	<p> WEIGHT(*)(in kg) </p>
+        <input type="text" name="uweight" placeholder="Enter your weight" onKeyup="numbersOnly(this)" required>
+	<p> Enter your activity level(*)</p>
+      <select name = "sel">
+  <option value="sed">Sedentary</option>
+  <option value="light">Light</option>
+  <option value="mod">Moderate</option>
+  <option value="ext">Extreme</option>
+	</select>
+	<br>
+	<br>
+	<br>
+	<br>
+	<input type="submit" value="SHOW RESULT">
+	</form>
+	</div>
+	<script>
+	function numbersOnly(input){
+	var regex = /[^0-9]/gi;
+	input.value = input.value.replace(regex, "");
+	}
+	</script>
+	</body>
+	</html>

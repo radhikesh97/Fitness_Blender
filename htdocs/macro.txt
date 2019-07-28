@@ -1,0 +1,54 @@
+information available:- 
+1.Weight of a person(in kgs)
+2.Height of a person(in cms)
+3.Age of the person.
+
+REE:- defined as Resting Energy Expenditure which is basically the amount of calories one burns while body is in no movement mode.
+
+For males:
+
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) + 5 = REE
+
+For females:
+
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) – 161 = REE
+
+movement expenditure or TDEE
+
+Sedentary
+Just normal everyday activity like a little walking, a couple flights of stairs, eating, talking etc. (REE X 1.2)
+
+Light activity
+Any activity that burns an additional 200-400 calories for females or 250-500 calories for males more than your sedentary amount. (REE x 1.375)
+
+Moderate activity
+Any activity that burns an additional 400-650 calories for females or 500-800 calories for males more than your sedentary amount. (REE x 1.55)
+
+Very Active
+Any activity that burns more than about 650 calories for females or more than 800 calories for males in addition to your sedentary amount. (REE x 1.725)
+
+In order to lose weight:- Eat less than your calculated TDEE
+In order to gain weight:- Eat more than your calculated TDEE
+In order to maintain current weight:- Eat equal to your TDEE.
+
+CALCULATION OF THE MACROS:-
+Here are the calorie values for each macronutrient:
+
+1g Protein = 4 Calories
+1g Carbohydrate = 4 Calories
+1g Fat = 9 Calories
+
+PROTEIN:-
+So if our individual weighs 195lbs (88 kg), and they are doing a moderate weight training program, then their protein intake will be 161 grams.
+
+FATS:-
+designate 25% of overall TDEE calories to fat.
+
+To figure out 25% of Overall TDEE: 
+3,250 Calories x 0.25 ( = 812.5 Calories) divided by 9 (9 calories per gram of fat) = 90.27g Fat (which I’d round down to 90 g).
+
+We started with 3,250 Calories. We allocated 644 calories (161 g) to Protein, 813 calories (90 g) to Fat and we now allocate the rest, 1793 calories, to Carbohydrates.
+
+Since 1g of Carb equals 4 calories we divide 1793 by 4 and get 448 g Carbohydrates.
+
+Final Macros: 161 g Protein, Fat 90 g and 448 g Carbohydrates for this guy to maintain his current weight.

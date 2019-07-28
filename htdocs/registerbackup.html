@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body{
+margin: 0;
+padding: 0;
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+//background-image: url("image5.jpg");
+//background-repeat: no-repeat;
+//background-size: 100%;
+//background-color: rgba(100,100,255,0.3);
+//background-size: cover;
+//background-position: center;
+//font-family: sans-serif;
+//background-attachment: fixed; 
+}
+
+.loginbox{
+width: 400px;
+height: 750px;
+background: #000;
+color: #fff;
+top: 90%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 50px 30px;
+}
+
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox select{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+   border: none;
+   outline: none;
+   height: 40px;
+   font-size: 18px;
+   border-radius: 10px;
+}
+
+        </style>
+    </head>
+    <body>
+      <div class="loginbox">
+	<img src="download.png" class="avatar">
+	<h1> REGISTER FOR ACCOUNT </h1>
+	<form name="newForm" action="/cgi-bin/reg.py" onsubmit="return validateForm()" method="GET">
+	<!--<p> USERNAME(*)(max length 20 characters) </p>
+        <input type="text" name="uname1" placeholder="Enter Username" onKeyup="lettersOnly(this)" required>-->
+	<p> FIRST NAME </p>
+        <input type="text" name="fname" placeholder="Enter Your First Name" required>
+	<p> LAST NAME </p>
+        <input type="text" name="lname" placeholder="Enter Your Last Name" required>
+	<p> EMAIL ID(*)(enter the correct email format) </p>
+        <input type="text" name="uname2" placeholder="Enter Your Email ID" required>
+	<p> PASSWORD(*)(minimum length 6 and maximum 20) </p>
+        <input type="password" name="upass" placeholder="Enter Password" required>
+	<p> CONFIRM PASSWORD(*) </p>
+        <input type="password" name="upass1" placeholder="Enter Password again" required>
+	<p> ENTER SECURITY QUESTION </p>
+	<br>
+		<select name = "sel">
+			<option> Where you you born? </option>
+			<option> What is your favourite book? </option>
+			<option> What is the place you like to visit the most? </option>
+			<option> What is your favourite food? </option>
+		</select>
+	<br>
+	<br>
+	<p> ENTER THE ANSWER TO THE SECURITY QUESTION </p>
+		<input type = "text" name = "ans" placeholder = "Enter security answer" required>
+	<p name = "sixth"></p>
+	<br>
+       <!-- <p> ACCOUNT TYPE(*)(should be either current or savings) </p>
+	<input type="text" name="acc_type" placeholder="Enter Account number" onKeyup="lettersOnly(this)" required>
+	<p> BALANCE(*)(should be atleast Rs.1000) </p>
+        <input type="text" name="balance" placeholder="Enter balance" onKeyup="numbersOnly(this)" required> 
+	<p> BRANCH CODE(*) </p>
+        <input type="text" name="bcode" placeholder="Enter branch code" onKeyup="numbersOnly(this)" required> 
+	<p> BRANCH ADDRESS(*) </p>
+        <input type="text" name="baddress" placeholder="Enter branch address" onKeyup="lettersOnly(this)" required> -->
+	<input type="submit" value="REGISTER">
+	</form>
+	</div>
+        <script>
+function lettersOnly(input){
+var regex = /[^a-z]/gi;
+input.value = input.value.replace(regex, "");
+}
+
+function numbersOnly(input){
+var regex = /[^0-9]/gi;
+input.value = input.value.replace(regex, "");
+}
+
+function validateEmail()
+      {
+         var emailID = document.newForm.uname2.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) 
+         {
+            alert("Please enter correct email ID")
+            document.newForm.uname2.focus() ;
+            return false;
+         }
+         return true ;
+      }
+
+
+function validateForm(){
+	var a = document.newForm.fname.value;
+	var b = document.newForm.lname.value;
+	var c = document.newForm.uname2.value;
+	var d = document.newForm.upass.value;
+	var e = document.newForm.upass1.value;
+	var f = document.newForm.sel.value;
+	var g = document.newForm.ans.value;
+	/*if(a == ""){
+		document.newForm.first.value = "First Name cannot remain empty";
+		return false;
+	}
+	if(b == ""){
+		document.newForm.second.value = "Second name cannot remain empty";
+		return false;
+	}
+	if(c == ""){
+		document.newForm.third.value = "Email remain empty";
+		return false;
+	}
+	if(d == ""){
+		document.newForm.fourth.value = "Password cannot remain empty";
+		return false;
+	}
+	if(e == ""){
+		document.newForm.fifth.value = "Confirm Password cannot remain empty";
+		return false;
+	}
+	if(g == ""){
+		document.newForm.sixth.value = "Security Answer cannot remain empty";
+		return false;
+	}*/
+	if(!validateEmail()){
+		return false;
+	}
+	if(d.length<6){
+		alert("Password length is less than six letters")
+		document.newForm.upass.value = ""
+		document.newForm.upass1.value = ""
+		document.newForm.upass.focus() ;
+		return false;
+	}
+	if(d.length>20){
+		alert("Password length is greater than 20 letters")
+		document.newForm.upass.value = ""
+		document.newForm.upass1.value = ""
+		document.newForm.upass.focus() ;
+		return false;
+	}
+	if(d!=e){
+		alert( "Passwords did not match" );
+		document.newForm.upass.value = ""
+		document.newForm.upass1.value = ""
+        document.newForm.upass.focus() ;
+		return false;
+	}
+	return true;
+}
+/*var a = document.forms["newForm"]["uname1"].value;
+var b = document.forms["newForm"]["upass"].value;
+var c = document.forms["newForm"]["upass1"].value;
+var d = document.forms["newForm"]["acc_type"].value;
+var e = document.forms["newForm"]["balance"].value;
+var f = document.forms["newForm"]["bcode"].value;
+var g = document.forms["newForm"]["baddress"].value;
+var h = document.forms["newForm"]["uname2"].value;
+var x = "current";
+var y = "savings";
+var z = parseInt(e);
+if(a.length>20 || b.length>20 || c.length>20 || d.length>20 || e.length>20 || f.length>20 || g.length>20 || h.length>20){
+alert("Too many characters");
+return false;
+}
+
+if(b.length < 6){
+alert("Not enough Password Length");
+return false;
+}
+
+if(b != c){
+alert("Please Ensure the password");
+return false;
+}
+if(z < 1000){
+alert("Not enough deposit");
+return false;
+}
+if(d==x || d==y){
+return true;
+}
+
+else{
+alert("Incorrect account type");
+return false;
+}
+
+if(h.indexOf('@')<=0)
+
+   {
+
+                document.getElementById("Message").innerHTML="***Invalide @ position***";
+
+    		return false;
+
+                }             
+
+                if((h.charAt(h.length-4)!='.') && (h.charAt(h.length-3)!='.'))
+
+                {
+
+                document.getElementById("Message").innerHTML="***Invalide . position***";
+
+    		return false;
+
+                }*/
+ 
+</script>
+    </body>
+</html>

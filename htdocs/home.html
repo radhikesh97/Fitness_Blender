@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("Virat-Kohli-Cristiano-Ronaldo.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+ //overflow: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    //overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<p align="right">
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="aboutus.html">About Us</a></li>
+  <li><a href="registerbackup.html">Register</a></li>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="cart.html">Shop</a></li>
+  <li><a href="faq.html">FAQs</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  <li style="float:right">
+    <form name="myForm" action="/cgi-bin/show.py" method="GET">
+    <button><img src="icon.png" width="50px" height="50px"></button>
+    </form>
+  </li>
+</ul>
+</p>
+</body>
+</html>

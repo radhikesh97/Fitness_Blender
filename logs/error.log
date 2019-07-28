@@ -1,0 +1,672 @@
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 21 11:43:42.725148 2018] [mpm_winnt:notice] [pid 6772:tid 672] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sun Oct 21 11:43:42.726152 2018] [mpm_winnt:notice] [pid 6772:tid 672] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sun Oct 21 11:43:42.726152 2018] [core:notice] [pid 6772:tid 672] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 21 11:43:42.728157 2018] [mpm_winnt:notice] [pid 6772:tid 672] AH00418: Parent: Created child process 14416
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 21 11:43:43.483166 2018] [mpm_winnt:notice] [pid 14416:tid 660] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 21 11:43:57.108397 2018] [mpm_winnt:notice] [pid 6772:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 21 11:43:59.109719 2018] [mpm_winnt:notice] [pid 14416:tid 660] AH00364: Child: All worker threads have exited.
+[Sun Oct 21 11:43:59.161858 2018] [mpm_winnt:notice] [pid 6772:tid 672] AH00430: Parent: Child process 14416 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 21 11:44:08.370654 2018] [mpm_winnt:notice] [pid 9284:tid 680] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sun Oct 21 11:44:08.371657 2018] [mpm_winnt:notice] [pid 9284:tid 680] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sun Oct 21 11:44:08.371657 2018] [core:notice] [pid 9284:tid 680] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 21 11:44:08.374665 2018] [mpm_winnt:notice] [pid 9284:tid 680] AH00418: Parent: Created child process 5472
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 21 11:44:08.847923 2018] [mpm_winnt:notice] [pid 5472:tid 688] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 21 11:47:08.381923 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:51280] couldn't create child process: 720005: abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:47:08.382927 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:51280] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:51:31.971850 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:51792] couldn't create child process: 720005: abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:51:31.971850 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:51792] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:53:55.755427 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:52363] couldn't create child process: 720005: abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:53:55.756430 2018] [cgi:error] [pid 5472:tid 1196] (OS 5)Access is denied.  : [client ::1:52363] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:54:43.181540 2018] [cgi:error] [pid 5472:tid 1196] (OS 2)The system cannot find the file specified.  : [client ::1:52394] couldn't create child process: 720002: abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:54:43.181540 2018] [cgi:error] [pid 5472:tid 1196] (OS 2)The system cannot find the file specified.  : [client ::1:52394] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:55:03.550705 2018] [cgi:error] [pid 5472:tid 1196] (OS 2)The system cannot find the file specified.  : [client ::1:52450] couldn't create child process: 720002: abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 11:55:03.550705 2018] [cgi:error] [pid 5472:tid 1196] (OS 2)The system cannot find the file specified.  : [client ::1:52450] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/eg.html
+[Sun Oct 21 13:41:09.900275 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55663] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:41:09.900776 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55663] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:41:09.900776 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55663] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 13, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:41:09.900776 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55663] AH01215:     conn = sqlite3.connect()\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:41:09.900776 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55663] AH01215: TypeError: Required argument 'database' (pos 1) not found\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:43:01.903106 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:55707] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:43:01.903106 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:55707] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:43:01.903106 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:55707] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 13, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:43:01.903106 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:55707] AH01215:     conn = sqlite3.connect()\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:43:01.903106 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:55707] AH01215: TypeError: Required argument 'database' (pos 1) not found\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:45:20.196588 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55742] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:45:20.196588 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55742] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:45:20.196588 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55742] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 13, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:45:20.196588 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55742] AH01215:     conn = sqlite3.connect()\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:45:20.197089 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55742] AH01215: TypeError: Required argument 'database' (pos 1) not found\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:47:39.251857 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55839] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:47:39.251857 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55839] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:47:39.252357 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55839] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 14, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:47:39.252357 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55839] AH01215:     conn.execute("INSERT INTO LOGIN VALUES("+fname+","+lname+","+email+","+password+","+secq+","+seca+")")\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 13:47:39.252357 2018] [cgi:error] [pid 5472:tid 1192] [client ::1:55839] AH01215: sqlite3.OperationalError: near "@gmail": syntax error\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:07:04.769156 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57207] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:07:04.769156 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57207] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:07:04.769656 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57207] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 14, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:07:04.769656 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57207] AH01215:     conn.execute("INSERT INTO LOGIN VALUES(?,?,?,?,?,?)"(fname,lname,email,password,secq,seca))\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:07:04.769656 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57207] AH01215: TypeError: 'str' object is not callable\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:08:09.665725 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57246] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:08:09.665725 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57246] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:08:09.665725 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57246] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 14, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:08:09.666225 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57246] AH01215:     conn.execute("INSERT INTO LOGIN VALUES(%s,%s,%s,%s,%s,%s)"(fname,lname,email,password,secq,seca))\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 14:08:09.666225 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57246] AH01215: TypeError: 'str' object is not callable\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 15:44:40.575081 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57426] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 15:44:40.575081 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57426] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 15:44:40.575582 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57426] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 14, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 15:44:40.575582 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57426] AH01215:     conn.execute("INSERT INTO LOGIN VALUES(%s,%s,%s,%s,%s,%s)"(fname,lname,email,password,secq,seca))\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 15:44:40.575582 2018] [cgi:error] [pid 5472:tid 1208] [client ::1:57426] AH01215: TypeError: 'str' object is not callable\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Sun Oct 21 18:21:46.935251 2018] [mpm_winnt:notice] [pid 9284:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Oct 21 18:21:49.175208 2018] [mpm_winnt:notice] [pid 5472:tid 688] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 22 19:17:36.925144 2018] [core:warn] [pid 21448:tid 640] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 22 19:17:36.932955 2018] [mpm_winnt:notice] [pid 21448:tid 640] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Oct 22 19:17:36.932955 2018] [mpm_winnt:notice] [pid 21448:tid 640] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Oct 22 19:17:36.932955 2018] [core:notice] [pid 21448:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 22 19:17:36.936961 2018] [mpm_winnt:notice] [pid 21448:tid 640] AH00418: Parent: Created child process 10052
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 22 19:17:37.326970 2018] [mpm_winnt:notice] [pid 10052:tid 660] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 7, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215:     password = form.getvlaue('upass')\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215:   File "C:\\Users\\Mahe\\Anaconda3\\lib\\cgi.py", line 585, in __getattr__\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215:     raise AttributeError(name)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:17:52.884407 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:64946] AH01215: AttributeError: getvlaue\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 7, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215:     password = form.getvlaue('upass')\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215:   File "C:\\Users\\Mahe\\Anaconda3\\lib\\cgi.py", line 585, in __getattr__\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215:     raise AttributeError(name)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:21:13.810600 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:65131] AH01215: AttributeError: getvlaue\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:24:18.731580 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65176] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:24:18.735582 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65176] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:24:18.735582 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65176] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 9, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:24:18.735582 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65176] AH01215:     cursor = conn.execute("SELECT EMAIL,PASSWORD FROM LOGIN WHERE EMAIL = ?",(name))\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:24:18.735582 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65176] AH01215: sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 23 supplied.\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:26:17.841050 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65254] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:26:17.841050 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65254] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:26:17.841050 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65254] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 9, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:26:17.841050 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65254] AH01215:     cursor = conn.execute("SELECT EMAIL,PASSWORD FROM LOGIN WHERE EMAIL = ?",(name))\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:26:17.841050 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65254] AH01215: sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 23 supplied.\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:31:38.418958 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65360] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:31:38.419428 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65360] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:31:38.419428 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65360] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 9, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:31:38.419428 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65360] AH01215:     cursor = conn.execute("SELECT EMAIL,PASSWORD FROM LOGIN WHERE EMAIL = ?",(name))\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:31:38.419428 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65360] AH01215: sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 23 supplied.\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:33:20.368455 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65504] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:33:20.368455 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65504] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:33:20.368455 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65504] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 13, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:33:20.368455 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65504] AH01215:     elif (cursor[1] != password):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:33:20.368455 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:65504] AH01215: TypeError: 'sqlite3.Cursor' object is not subscriptable\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:52:49.197919 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:51186] malformed header from script 'abc.py': Bad header: <html>, referer: http://localhost/login.html
+[Mon Oct 22 19:53:56.141602 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:51216] malformed header from script 'abc.py': Bad header: <html>, referer: http://localhost/login.html
+[Mon Oct 22 19:59:26.752852 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:51942] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:59:26.752852 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:51942] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 25\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:59:26.752852 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:51942] AH01215:     print "Location : /C:\\Apache24\\htdocs\\home.html\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:59:26.752852 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:51942] AH01215:                                                   ^\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 19:59:26.752852 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:51942] AH01215: SyntaxError: Missing parentheses in call to 'print'. Did you mean print(int "Location : /C:\\Apache24\\htdocs\\home.html)?\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 20:00:04.284805 2018] [cgi:error] [pid 10052:tid 1200] [client ::1:51958] Premature end of script headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 20:00:39.171180 2018] [cgi:error] [pid 10052:tid 1188] [client ::1:52337] Premature end of script headers: abc.py, referer: http://localhost/login.html
+[Mon Oct 22 20:56:03.064958 2018] [mpm_winnt:notice] [pid 21448:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Oct 22 20:56:05.118993 2018] [mpm_winnt:notice] [pid 10052:tid 660] AH00364: Child: All worker threads have exited.
+[Mon Oct 22 20:56:05.136981 2018] [mpm_winnt:notice] [pid 21448:tid 640] AH00430: Parent: Child process 10052 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 22 23:06:41.506896 2018] [mpm_winnt:notice] [pid 19708:tid 664] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Oct 22 23:06:41.507397 2018] [mpm_winnt:notice] [pid 19708:tid 664] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Oct 22 23:06:41.507397 2018] [core:notice] [pid 19708:tid 664] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Oct 22 23:06:41.509905 2018] [mpm_winnt:notice] [pid 19708:tid 664] AH00418: Parent: Created child process 10584
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 22 23:06:41.949071 2018] [mpm_winnt:notice] [pid 10584:tid 488] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 22 23:06:55.884844 2018] [cgi:error] [pid 10584:tid 1176] [client ::1:56839] malformed header from script 'abc.py': Bad header: <html>, referer: http://localhost/login.html
+[Mon Oct 22 23:09:46.317124 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:56919] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/index.py
+[Mon Oct 22 23:31:47.277135 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58521] malformed header from script 'abc.py': Bad header: <html>, referer: http://localhost/login.html
+[Mon Oct 22 23:36:18.215972 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58601] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:18.215972 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58601] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 42, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:18.215972 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58601] AH01215:     myJSON = JSON.stringify(myobj)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:18.215972 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58601] AH01215: NameError: name 'JSON' is not defined\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:37.813060 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58625] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:37.813562 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58625] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 42, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:37.813562 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58625] AH01215:     myJSON = JSON.stringify(myobj)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:36:37.813562 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58625] AH01215: NameError: name 'JSON' is not defined\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:42:27.964567 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58730] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:42:27.964567 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58730] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 42, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:42:27.964567 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58730] AH01215:     myJSON = JSON.stringify(myobj)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:42:27.964567 2018] [cgi:error] [pid 10584:tid 1180] [client ::1:58730] AH01215: NameError: name 'JSON' is not defined\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:46:45.761833 2018] [cgi:error] [pid 10584:tid 1176] [client ::1:58007] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:46:45.762334 2018] [cgi:error] [pid 10584:tid 1176] [client ::1:58007] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 42, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:46:45.762334 2018] [cgi:error] [pid 10584:tid 1176] [client ::1:58007] AH01215:     myJSON = json.stringify(myobj)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Oct 22 23:46:45.762334 2018] [cgi:error] [pid 10584:tid 1176] [client ::1:58007] AH01215: AttributeError: module 'json' has no attribute 'stringify'\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Oct 23 00:51:17.907639 2018] [mpm_winnt:notice] [pid 19708:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 23 00:51:19.924558 2018] [mpm_winnt:notice] [pid 10584:tid 488] AH00364: Child: All worker threads have exited.
+[Tue Oct 23 00:51:20.216333 2018] [mpm_winnt:notice] [pid 19708:tid 664] AH00430: Parent: Child process 10584 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 24 22:12:13.217744 2018] [mpm_winnt:notice] [pid 17932:tid 668] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Wed Oct 24 22:12:13.218747 2018] [mpm_winnt:notice] [pid 17932:tid 668] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Wed Oct 24 22:12:13.218747 2018] [core:notice] [pid 17932:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Oct 24 22:12:13.221253 2018] [mpm_winnt:notice] [pid 17932:tid 668] AH00418: Parent: Created child process 13832
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 24 22:12:13.662928 2018] [mpm_winnt:notice] [pid 13832:tid 684] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 25 18:39:14.934399 2018] [mpm_winnt:notice] [pid 17932:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 25 18:39:17.194421 2018] [mpm_winnt:notice] [pid 13832:tid 684] AH00364: Child: All worker threads have exited.
+[Thu Oct 25 18:39:17.981767 2018] [mpm_winnt:notice] [pid 17932:tid 668] AH00430: Parent: Child process 13832 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 26 12:26:10.720553 2018] [mpm_winnt:notice] [pid 17628:tid 628] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Fri Oct 26 12:26:10.721556 2018] [mpm_winnt:notice] [pid 17628:tid 628] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Fri Oct 26 12:26:10.721556 2018] [core:notice] [pid 17628:tid 628] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Oct 26 12:26:10.725576 2018] [mpm_winnt:notice] [pid 17628:tid 628] AH00418: Parent: Created child process 2408
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 26 12:26:11.051896 2018] [mpm_winnt:notice] [pid 2408:tid 660] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 26 12:29:13.122193 2018] [cgi:error] [pid 2408:tid 1176] (OS 2)The system cannot find the file specified.  : [client ::1:60382] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:29:13.123196 2018] [cgi:error] [pid 2408:tid 1176] (OS 2)The system cannot find the file specified.  : [client ::1:60382] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:30:44.432998 2018] [cgi:error] [pid 2408:tid 1172] (OS 2)The system cannot find the file specified.  : [client ::1:60535] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:30:44.432998 2018] [cgi:error] [pid 2408:tid 1172] (OS 2)The system cannot find the file specified.  : [client ::1:60535] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:32:55.885925 2018] [cgi:error] [pid 2408:tid 1184] (OS 2)The system cannot find the file specified.  : [client ::1:60586] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:32:55.885925 2018] [cgi:error] [pid 2408:tid 1184] (OS 2)The system cannot find the file specified.  : [client ::1:60586] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:35:20.257974 2018] [cgi:error] [pid 2408:tid 1148] (OS 2)The system cannot find the file specified.  : [client ::1:60609] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:35:20.257974 2018] [cgi:error] [pid 2408:tid 1148] (OS 2)The system cannot find the file specified.  : [client ::1:60609] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:35:31.481971 2018] [cgi:error] [pid 2408:tid 1148] (OS 2)The system cannot find the file specified.  : [client ::1:60625] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:35:31.481971 2018] [cgi:error] [pid 2408:tid 1148] (OS 2)The system cannot find the file specified.  : [client ::1:60625] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:38:31.669073 2018] [cgi:error] [pid 2408:tid 1164] (OS 2)The system cannot find the file specified.  : [client ::1:60697] couldn't create child process: 720002: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:38:31.669073 2018] [cgi:error] [pid 2408:tid 1164] (OS 2)The system cannot find the file specified.  : [client ::1:60697] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:44:05.365087 2018] [cgi:error] [pid 2408:tid 1164] [client ::1:64619] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 12:44:05.461852 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:64391] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 12:45:28.676825 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:65507] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=45&Longitude=78&Date=2018-10-12
+[Fri Oct 26 12:45:28.714425 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:65507] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=45&Longitude=78&Date=2018-10-12
+[Fri Oct 26 12:47:17.666580 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49977] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=43&Longitude=65&Date=2018-10-31
+[Fri Oct 26 12:47:17.744788 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49977] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=43&Longitude=65&Date=2018-10-31
+[Fri Oct 26 12:47:17.812969 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49977] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=43&Longitude=65&Date=2018-10-31
+[Fri Oct 26 12:58:47.763679 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55220] End of script output before headers: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:58:47.764181 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55220] AH01215:   File "C:/Apache24/cgi-bin/cgi-bin/bet.py", line 102\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:58:47.764181 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55220] AH01215:     print(json_string)\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:58:47.764181 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55220] AH01215:     ^\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 12:58:47.764181 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55220] AH01215: IndentationError: unexpected indent\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:00:03.479255 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55570] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:00:03.514850 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55570] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:00:03.611106 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:55570] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:01:26.174546 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:57773] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:01:26.253257 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:57773] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:01:26.287848 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:57773] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:07:36.457348 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59522] End of script output before headers: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:07:36.457348 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59522] AH01215:   File "C:/Apache24/cgi-bin/cgi-bin/bet.py", line 102\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:07:36.457348 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59522] AH01215:     with open(final, 'w') as f:\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:07:36.457348 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59522] AH01215:     ^\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:07:36.457348 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59522] AH01215: IndentationError: unexpected indent\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:08:32.965921 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59867] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:08:33.046636 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59867] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:08:33.064182 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59867] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:08:33.151914 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59866] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:08:33.151914 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59866] AH01215:   File "C:/Apache24/cgi-bin/cgi-bin/bet.py", line 102, in <module>\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:08:33.151914 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59866] AH01215:     with open(final, 'w') as f:\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:08:33.151914 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59866] AH01215: NameError: name 'final' is not defined\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:11:38.369753 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59979] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:11:38.411865 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59979] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:11:38.452976 2018] [cgi:error] [pid 2408:tid 1176] [client ::1:59979] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=56&Date=2018-10-31
+[Fri Oct 26 13:11:38.522659 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59978] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:11:38.522659 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59978] AH01215:   File "C:/Apache24/cgi-bin/cgi-bin/bet.py", line 102, in <module>\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:11:38.523160 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59978] AH01215:     filename = rs.SaveFileName("Save JSON file as", filter)\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:11:38.523160 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:59978] AH01215: NameError: name 'rs' is not defined\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:14:10.020604 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:60386] End of script output before headers: bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:14:10.021104 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:60386] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:14:10.021104 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:60386] AH01215:   File "C:/Apache24/cgi-bin/cgi-bin/bet.py", line 11, in <module>\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:14:10.021104 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:60386] AH01215:     import rhinoscriptsyntax as rs\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:14:10.021104 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:60386] AH01215: ModuleNotFoundError: No module named 'rhinoscriptsyntax'\r: C:/Apache24/cgi-bin/cgi-bin/bet.py, referer: http://localhost/htdocs/index.html
+[Fri Oct 26 13:18:05.131165 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:61045] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=34&Longitude=76&Date=2018-10-31
+[Fri Oct 26 13:18:05.198845 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:61045] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=34&Longitude=76&Date=2018-10-31
+[Fri Oct 26 13:18:05.244466 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:61045] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=34&Longitude=76&Date=2018-10-31
+[Fri Oct 26 13:29:31.121880 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49973] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=180&Date=2018-10-31
+[Fri Oct 26 13:29:31.199587 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49973] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=180&Date=2018-10-31
+[Fri Oct 26 13:29:31.233677 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:49973] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=24&Longitude=180&Date=2018-10-31
+[Fri Oct 26 13:32:08.023363 2018] [cgi:error] [pid 2408:tid 1160] [client ::1:50842] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/css, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=56&Longitude=77&Date=2018-10-20
+[Fri Oct 26 13:32:08.090047 2018] [cgi:error] [pid 2408:tid 1160] [client ::1:50842] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=56&Longitude=77&Date=2018-10-20
+[Fri Oct 26 13:32:08.199832 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:50841] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=56&Longitude=77&Date=2018-10-20
+[Fri Oct 26 13:33:17.164177 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:51192] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=35&Longitude=634&Date=2018-10-04
+[Fri Oct 26 13:33:17.202779 2018] [cgi:error] [pid 2408:tid 1148] [client ::1:51192] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=35&Longitude=634&Date=2018-10-04
+[Fri Oct 26 15:12:29.914538 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:53147] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=34&Longitude=65&Date=2018-10-10
+[Fri Oct 26 15:12:29.981215 2018] [cgi:error] [pid 2408:tid 1184] [client ::1:53147] AH02811: script not found or unable to stat: C:/Apache24/cgi-bin/cgi-bin/js, referer: http://localhost/cgi-bin/cgi-bin/bet.py?Latitude=34&Longitude=65&Date=2018-10-10
+[Fri Oct 26 23:08:00.559144 2018] [mpm_winnt:notice] [pid 17628:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 26 23:08:02.968475 2018] [mpm_winnt:notice] [pid 2408:tid 660] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 28 18:25:38.443080 2018] [core:warn] [pid 18932:tid 692] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 28 18:25:38.443080 2018] [mpm_winnt:notice] [pid 18932:tid 692] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sun Oct 28 18:25:38.443080 2018] [mpm_winnt:notice] [pid 18932:tid 692] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sun Oct 28 18:25:38.443080 2018] [core:notice] [pid 18932:tid 692] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Oct 28 18:25:38.458684 2018] [mpm_winnt:notice] [pid 18932:tid 692] AH00418: Parent: Created child process 9192
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Sun Oct 28 18:25:38.805228 2018] [mpm_winnt:notice] [pid 9192:tid 676] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 28 18:27:10.059668 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:58705] End of script output before headers: yes.py, referer: http://localhost/end.html
+[Sun Oct 28 18:27:10.059668 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:58705] AH01215:   File "C:/Apache24/cgi-bin/yes.py", line 9\r: C:/Apache24/cgi-bin/yes.py, referer: http://localhost/end.html
+[Sun Oct 28 18:27:10.059668 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:58705] AH01215:     print("<h1>%s</h1>",%(name))\r: C:/Apache24/cgi-bin/yes.py, referer: http://localhost/end.html
+[Sun Oct 28 18:27:10.059668 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:58705] AH01215:                         ^\r: C:/Apache24/cgi-bin/yes.py, referer: http://localhost/end.html
+[Sun Oct 28 18:27:10.059668 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:58705] AH01215: SyntaxError: invalid syntax\r: C:/Apache24/cgi-bin/yes.py, referer: http://localhost/end.html
+[Mon Oct 29 19:40:28.918260 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64419] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:40:28.925780 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64419] AH01215:   File "C:/Apache24/cgi-bin/os.py", line 12, in <module>\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:40:28.925780 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64419] AH01215:     print("<h1>%s</h1>"%(cgi.server_name))\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:40:28.925780 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64419] AH01215: AttributeError: module 'cgi' has no attribute 'server_name'\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:41:25.099303 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64499] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:41:25.099303 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64499] AH01215:   File "C:/Apache24/cgi-bin/os.py", line 12, in <module>\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:41:25.099303 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64499] AH01215:     print("<h1>%s</h1>"%(cgi.SERVER_NAME))\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:41:25.103309 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64499] AH01215: AttributeError: module 'cgi' has no attribute 'SERVER_NAME'\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:46:26.838172 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64925] AH01215: 'ls' is not recognized as an internal or external command,\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:46:26.838172 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64925] AH01215: operable program or batch file.\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:46:30.404237 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64925] AH01215: 'ls' is not recognized as an internal or external command,\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:46:30.404237 2018] [cgi:error] [pid 9192:tid 1176] [client ::1:64925] AH01215: operable program or batch file.\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:47:19.767039 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64999] AH01215: 'ls' is not recognized as an internal or external command,\r: C:/Apache24/cgi-bin/os.py
+[Mon Oct 29 19:47:19.767039 2018] [cgi:error] [pid 9192:tid 1184] [client ::1:64999] AH01215: operable program or batch file.\r: C:/Apache24/cgi-bin/os.py
+[Tue Oct 30 21:33:35.837822 2018] [mpm_winnt:notice] [pid 18932:tid 692] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Oct 30 21:33:38.142424 2018] [mpm_winnt:notice] [pid 9192:tid 676] AH00364: Child: All worker threads have exited.
+[Tue Oct 30 21:33:39.945381 2018] [mpm_winnt:notice] [pid 18932:tid 692] AH00430: Parent: Child process 9192 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 05 11:41:01.454861 2018] [mpm_winnt:notice] [pid 9056:tid 652] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 05 11:41:01.454861 2018] [mpm_winnt:notice] [pid 9056:tid 652] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 05 11:41:01.454861 2018] [core:notice] [pid 9056:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 05 11:41:01.470315 2018] [mpm_winnt:notice] [pid 9056:tid 652] AH00418: Parent: Created child process 8984
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 05 11:41:01.770753 2018] [mpm_winnt:notice] [pid 8984:tid 660] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 05 12:36:34.874433 2018] [cgi:error] [pid 8984:tid 1208] [client ::1:50947] End of script output before headers: bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:36:34.874433 2018] [cgi:error] [pid 8984:tid 1208] [client ::1:50947] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 33\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:36:34.874433 2018] [cgi:error] [pid 8984:tid 1208] [client ::1:50947] AH01215:     print("Content-type:text/html\\r\\n\\r\\n")\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:36:34.874433 2018] [cgi:error] [pid 8984:tid 1208] [client ::1:50947] AH01215:                                           ^\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:36:34.874433 2018] [cgi:error] [pid 8984:tid 1208] [client ::1:50947] AH01215: IndentationError: unindent does not match any outer indentation level\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:38:18.094564 2018] [cgi:error] [pid 8984:tid 1180] [client ::1:51081] End of script output before headers: bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:38:18.094564 2018] [cgi:error] [pid 8984:tid 1180] [client ::1:51081] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:38:18.094564 2018] [cgi:error] [pid 8984:tid 1180] [client ::1:51081] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 14, in <module>\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:38:18.094564 2018] [cgi:error] [pid 8984:tid 1180] [client ::1:51081] AH01215:     ree = 10*weight + 6.25*height-5*age+5\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 12:38:18.094564 2018] [cgi:error] [pid 8984:tid 1180] [client ::1:51081] AH01215: TypeError: can't multiply sequence by non-int of type 'float'\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 05 19:13:46.938773 2018] [mpm_winnt:notice] [pid 9056:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 05 19:13:48.980438 2018] [mpm_winnt:notice] [pid 8984:tid 660] AH00364: Child: All worker threads have exited.
+[Mon Nov 05 19:13:49.011840 2018] [mpm_winnt:notice] [pid 9056:tid 652] AH00430: Parent: Child process 8984 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 05 19:18:44.659394 2018] [mpm_winnt:notice] [pid 3232:tid 664] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 05 19:18:44.659394 2018] [mpm_winnt:notice] [pid 3232:tid 664] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 05 19:18:44.659394 2018] [core:notice] [pid 3232:tid 664] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 05 19:18:44.674926 2018] [mpm_winnt:notice] [pid 3232:tid 664] AH00418: Parent: Created child process 5280
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 05 19:18:44.924954 2018] [mpm_winnt:notice] [pid 5280:tid 692] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 05 23:43:19.787937 2018] [cgi:error] [pid 5280:tid 1188] [client ::1:54018] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Mon Nov 05 23:43:19.788439 2018] [cgi:error] [pid 5280:tid 1188] [client ::1:54018] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Nov 05 23:43:19.788439 2018] [cgi:error] [pid 5280:tid 1188] [client ::1:54018] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 14, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Nov 05 23:43:19.788439 2018] [cgi:error] [pid 5280:tid 1188] [client ::1:54018] AH01215:     ans = {{"First":str(row[2]),"Last":str(row[3])}}\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Nov 05 23:43:19.788439 2018] [cgi:error] [pid 5280:tid 1188] [client ::1:54018] AH01215: TypeError: unhashable type: 'dict'\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Mon Nov 05 23:46:22.611000 2018] [http:error] [pid 5280:tid 1188] [client ::1:54027] AH02429: Response header name '{"First"' contains invalid characters, aborting request, referer: http://localhost/login.html
+[Tue Nov 06 00:26:31.204376 2018] [mpm_winnt:notice] [pid 3232:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 06 00:26:49.815097 2018] [core:warn] [pid 13668:tid 656] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 06 00:26:49.819019 2018] [mpm_winnt:notice] [pid 13668:tid 656] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Tue Nov 06 00:26:49.819019 2018] [mpm_winnt:notice] [pid 13668:tid 656] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Tue Nov 06 00:26:49.819019 2018] [core:notice] [pid 13668:tid 656] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 06 00:26:49.819019 2018] [mpm_winnt:notice] [pid 13668:tid 656] AH00418: Parent: Created child process 13784
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 06 00:26:50.246276 2018] [mpm_winnt:notice] [pid 13784:tid 684] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 06 00:36:44.579799 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55053] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:36:44.579799 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55053] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:36:44.580301 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55053] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 15, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:36:44.580301 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55053] AH01215:     temp = json.loads(temp)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:36:44.580301 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55053] AH01215: NameError: name 'temp' is not defined\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 16, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215:     ans = json.loads(ans)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215:   File "C:\\Users\\Mahe\\Anaconda3\\lib\\json\\__init__.py", line 348, in loads\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215:     'not {!r}'.format(s.__class__.__name__))\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:39:23.139069 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55066] AH01215: TypeError: the JSON object must be str, bytes or bytearray, not 'dict'\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:42:13.034363 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55087] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:42:13.034363 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55087] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:42:13.034363 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55087] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 15, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:42:13.034363 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55087] AH01215:     ans = {{"First":str(row[2]),"Last":str(row[3])}}\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:42:13.034363 2018] [cgi:error] [pid 13784:tid 1184] [client ::1:55087] AH01215: TypeError: unhashable type: 'dict'\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 16, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215:     ans = json.loads(ans)\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215:   File "C:\\Users\\Mahe\\Anaconda3\\lib\\json\\__init__.py", line 348, in loads\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215:     'not {!r}'.format(s.__class__.__name__))\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 00:45:08.543041 2018] [cgi:error] [pid 13784:tid 1188] [client ::1:55105] AH01215: TypeError: the JSON object must be str, bytes or bytearray, not 'dict'\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 06 02:25:55.586141 2018] [mpm_winnt:notice] [pid 13668:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 06 02:25:57.612486 2018] [mpm_winnt:notice] [pid 13784:tid 684] AH00364: Child: All worker threads have exited.
+[Tue Nov 06 02:25:57.712806 2018] [mpm_winnt:notice] [pid 13668:tid 656] AH00430: Parent: Child process 13784 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 00:58:42.859031 2018] [mpm_winnt:notice] [pid 9196:tid 652] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 00:58:42.859031 2018] [mpm_winnt:notice] [pid 9196:tid 652] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 00:58:42.859031 2018] [core:notice] [pid 9196:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 00:58:42.874651 2018] [mpm_winnt:notice] [pid 9196:tid 652] AH00418: Parent: Created child process 11160
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 00:58:43.144339 2018] [mpm_winnt:notice] [pid 11160:tid 696] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:03:36.822397 2018] [mpm_winnt:notice] [pid 9196:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 08 01:03:38.878145 2018] [mpm_winnt:notice] [pid 11160:tid 696] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:03:38.962765 2018] [mpm_winnt:notice] [pid 9196:tid 652] AH00430: Parent: Child process 11160 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:03:50.567852 2018] [mpm_winnt:notice] [pid 15236:tid 676] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:03:50.567852 2018] [mpm_winnt:notice] [pid 15236:tid 676] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:03:50.567852 2018] [core:notice] [pid 15236:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:03:50.583306 2018] [mpm_winnt:notice] [pid 15236:tid 676] AH00418: Parent: Created child process 2480
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:03:50.836475 2018] [mpm_winnt:notice] [pid 2480:tid 676] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:06:08.396788 2018] [mpm_winnt:notice] [pid 15236:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 08 01:06:10.418538 2018] [mpm_winnt:notice] [pid 2480:tid 676] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:06:10.455630 2018] [mpm_winnt:notice] [pid 15236:tid 676] AH00430: Parent: Child process 2480 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:06:14.101911 2018] [mpm_winnt:notice] [pid 5676:tid 680] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:06:14.101911 2018] [mpm_winnt:notice] [pid 5676:tid 680] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:06:14.101911 2018] [core:notice] [pid 5676:tid 680] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:06:14.117453 2018] [mpm_winnt:notice] [pid 5676:tid 680] AH00418: Parent: Created child process 7340
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:06:14.419614 2018] [mpm_winnt:notice] [pid 7340:tid 660] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:11:42.864040 2018] [mpm_winnt:notice] [pid 5676:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:11:55.145703 2018] [core:warn] [pid 6140:tid 140] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 08 01:11:55.145703 2018] [mpm_winnt:notice] [pid 6140:tid 140] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:11:55.145703 2018] [mpm_winnt:notice] [pid 6140:tid 140] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:11:55.145703 2018] [core:notice] [pid 6140:tid 140] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:11:55.145703 2018] [mpm_winnt:notice] [pid 6140:tid 140] AH00418: Parent: Created child process 3916
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:11:55.414457 2018] [mpm_winnt:notice] [pid 3916:tid 664] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:11:58.036857 2018] [mpm_winnt:notice] [pid 7340:tid 660] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:14:18.679966 2018] [mpm_winnt:notice] [pid 6140:tid 140] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:14:35.129085 2018] [core:warn] [pid 5588:tid 656] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 08 01:14:35.129085 2018] [mpm_winnt:notice] [pid 5588:tid 656] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:14:35.129085 2018] [mpm_winnt:notice] [pid 5588:tid 656] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:14:35.129085 2018] [core:notice] [pid 5588:tid 656] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:14:35.129085 2018] [mpm_winnt:notice] [pid 5588:tid 656] AH00418: Parent: Created child process 6076
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:14:35.476898 2018] [mpm_winnt:notice] [pid 6076:tid 660] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:14:42.785162 2018] [mpm_winnt:notice] [pid 3916:tid 664] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:23:45.308446 2018] [mpm_winnt:notice] [pid 5588:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 08 01:24:18.763531 2018] [mpm_winnt:notice] [pid 6076:tid 660] AH00362: Child: Waiting 30 more seconds for 2 worker threads to finish.
+[Thu Nov 08 01:24:35.353858 2018] [mpm_winnt:notice] [pid 6076:tid 660] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:30:57.893615 2018] [core:warn] [pid 14032:tid 652] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 08 01:30:57.893615 2018] [mpm_winnt:notice] [pid 14032:tid 652] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:30:57.893615 2018] [mpm_winnt:notice] [pid 14032:tid 652] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:30:57.893615 2018] [core:notice] [pid 14032:tid 652] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:30:57.909099 2018] [mpm_winnt:notice] [pid 14032:tid 652] AH00418: Parent: Created child process 14856
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:30:58.309796 2018] [mpm_winnt:notice] [pid 14856:tid 712] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:36:01.893235 2018] [mpm_winnt:notice] [pid 14032:tid 652] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 08 01:36:03.905429 2018] [mpm_winnt:notice] [pid 14856:tid 712] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:36:03.936498 2018] [mpm_winnt:notice] [pid 14032:tid 652] AH00430: Parent: Child process 14856 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:40:32.355112 2018] [mpm_winnt:notice] [pid 1644:tid 676] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:40:32.355112 2018] [mpm_winnt:notice] [pid 1644:tid 676] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:40:32.355112 2018] [core:notice] [pid 1644:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:40:32.370877 2018] [mpm_winnt:notice] [pid 1644:tid 676] AH00418: Parent: Created child process 6304
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:40:32.622425 2018] [mpm_winnt:notice] [pid 6304:tid 700] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:51:27.983028 2018] [mpm_winnt:notice] [pid 1644:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:51:40.017906 2018] [core:warn] [pid 2024:tid 628] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 08 01:51:40.017906 2018] [mpm_winnt:notice] [pid 2024:tid 628] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:51:40.017906 2018] [mpm_winnt:notice] [pid 2024:tid 628] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:51:40.017906 2018] [core:notice] [pid 2024:tid 628] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:51:40.017906 2018] [mpm_winnt:notice] [pid 2024:tid 628] AH00418: Parent: Created child process 11136
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:51:40.355636 2018] [mpm_winnt:notice] [pid 11136:tid 536] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:51:43.712353 2018] [mpm_winnt:notice] [pid 6304:tid 700] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:53:17.892204 2018] [mpm_winnt:notice] [pid 2024:tid 628] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:53:50.379293 2018] [core:warn] [pid 2596:tid 660] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 08 01:53:50.381828 2018] [mpm_winnt:notice] [pid 2596:tid 660] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Thu Nov 08 01:53:50.381828 2018] [mpm_winnt:notice] [pid 2596:tid 660] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Thu Nov 08 01:53:50.381828 2018] [core:notice] [pid 2596:tid 660] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Nov 08 01:53:50.383302 2018] [mpm_winnt:notice] [pid 2596:tid 660] AH00418: Parent: Created child process 11732
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 08 01:53:50.645907 2018] [mpm_winnt:notice] [pid 11732:tid 680] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 08 01:53:51.846006 2018] [mpm_winnt:notice] [pid 11136:tid 536] AH00362: Child: Waiting 30 more seconds for 2 worker threads to finish.
+[Thu Nov 08 01:53:54.311030 2018] [mpm_winnt:notice] [pid 11136:tid 536] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 01:58:34.085744 2018] [cgi:error] [pid 11732:tid 1196] [client ::1:59619] End of script output before headers: reg.py, referer: http://localhost/registerbackup.html
+[Thu Nov 08 01:58:34.085744 2018] [cgi:error] [pid 11732:tid 1196] [client ::1:59619] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Thu Nov 08 01:58:34.085744 2018] [cgi:error] [pid 11732:tid 1196] [client ::1:59619] AH01215:   File "C:/Apache24/cgi-bin/reg.py", line 19, in <module>\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Thu Nov 08 01:58:34.085744 2018] [cgi:error] [pid 11732:tid 1196] [client ::1:59619] AH01215:     ans = json.loads(ans)\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Thu Nov 08 01:58:34.085744 2018] [cgi:error] [pid 11732:tid 1196] [client ::1:59619] AH01215: NameError: name 'json' is not defined\r: C:/Apache24/cgi-bin/reg.py, referer: http://localhost/registerbackup.html
+[Thu Nov 08 02:05:11.493063 2018] [mpm_winnt:notice] [pid 2596:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 08 02:05:13.502718 2018] [mpm_winnt:notice] [pid 11732:tid 680] AH00364: Child: All worker threads have exited.
+[Thu Nov 08 02:05:13.518488 2018] [mpm_winnt:notice] [pid 2596:tid 660] AH00430: Parent: Child process 11732 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:30:19.707191 2018] [mpm_winnt:notice] [pid 10280:tid 656] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 12 19:30:19.711191 2018] [mpm_winnt:notice] [pid 10280:tid 656] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 12 19:30:19.711191 2018] [core:notice] [pid 10280:tid 656] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 12 19:30:19.715190 2018] [mpm_winnt:notice] [pid 10280:tid 656] AH00418: Parent: Created child process 14176
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:30:20.071607 2018] [mpm_winnt:notice] [pid 14176:tid 688] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 12 19:34:26.533385 2018] [mpm_winnt:notice] [pid 10280:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:34:39.707152 2018] [core:warn] [pid 17040:tid 668] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 12 19:34:39.712089 2018] [mpm_winnt:notice] [pid 17040:tid 668] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 12 19:34:39.712089 2018] [mpm_winnt:notice] [pid 17040:tid 668] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 12 19:34:39.712089 2018] [core:notice] [pid 17040:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 12 19:34:39.717091 2018] [mpm_winnt:notice] [pid 17040:tid 668] AH00418: Parent: Created child process 19784
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:34:40.122881 2018] [mpm_winnt:notice] [pid 19784:tid 676] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 12 19:34:59.182613 2018] [mpm_winnt:notice] [pid 14176:tid 688] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Nov 12 19:35:01.958451 2018] [mpm_winnt:notice] [pid 14176:tid 688] AH00364: Child: All worker threads have exited.
+[Mon Nov 12 19:35:28.324259 2018] [mpm_winnt:notice] [pid 17040:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 12 19:35:44.577683 2018] [mpm_winnt:notice] [pid 19784:tid 676] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:36:51.387571 2018] [core:warn] [pid 18760:tid 676] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 12 19:36:51.387571 2018] [mpm_winnt:notice] [pid 18760:tid 676] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 12 19:36:51.387571 2018] [mpm_winnt:notice] [pid 18760:tid 676] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 12 19:36:51.387571 2018] [core:notice] [pid 18760:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 12 19:36:51.392497 2018] [mpm_winnt:notice] [pid 18760:tid 676] AH00418: Parent: Created child process 15920
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:36:51.757615 2018] [mpm_winnt:notice] [pid 15920:tid 672] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 12 19:39:04.090808 2018] [mpm_winnt:notice] [pid 18760:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 12 19:39:36.704970 2018] [mpm_winnt:notice] [pid 15920:tid 672] AH00362: Child: Waiting 30 more seconds for 2 worker threads to finish.
+[Mon Nov 12 19:39:54.885194 2018] [mpm_winnt:notice] [pid 15920:tid 672] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:40:17.282358 2018] [core:warn] [pid 18744:tid 656] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 12 19:40:17.282358 2018] [mpm_winnt:notice] [pid 18744:tid 656] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Mon Nov 12 19:40:17.282358 2018] [mpm_winnt:notice] [pid 18744:tid 656] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Mon Nov 12 19:40:17.282358 2018] [core:notice] [pid 18744:tid 656] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 12 19:40:17.282358 2018] [mpm_winnt:notice] [pid 18744:tid 656] AH00418: Parent: Created child process 6656
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.3.59. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 12 19:40:17.598844 2018] [mpm_winnt:notice] [pid 6656:tid 668] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 12 20:06:33.365744 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57034] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:06:33.365744 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57034] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 46, in <module>\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:06:33.365744 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57034] AH01215:     print("<body background="+bgimage.jpg+">")\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:06:33.365744 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57034] AH01215: NameError: name 'bgimage' is not defined\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:07:25.206224 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57040] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:07:25.210221 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57040] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 46, in <module>\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:07:25.210221 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57040] AH01215:     print("<body background="+forest.jpg+">")\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:07:25.210221 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57040] AH01215: NameError: name 'forest' is not defined\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:09:22.848367 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57043] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:09:22.848367 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57043] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 46, in <module>\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:09:22.848367 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57043] AH01215:     print("<body background="+forest.jpg+">")\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:09:22.848367 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57043] AH01215: NameError: name 'forest' is not defined\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:10:33.075090 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57044] End of script output before headers: bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:10:33.075090 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57044] AH01215:   File "C:/Apache24/cgi-bin/bmi.py", line 46\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:10:33.075090 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57044] AH01215:     print("<body background="+C:/Apache24/htdocs/forest.jpg+">")\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:10:33.075090 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57044] AH01215:                                ^\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:10:33.075090 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:57044] AH01215: SyntaxError: invalid syntax\r: C:/Apache24/cgi-bin/bmi.py, referer: http://localhost/nutrition.html
+[Mon Nov 12 20:41:59.276300 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:59028] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 20:41:59.276300 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:59028] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 20:41:59.276300 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:59028] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 20:41:59.276300 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:59028] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 20:41:59.276300 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:59028] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 21:39:42.094853 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:62334] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 21:39:42.094853 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:62334] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 21:39:42.094853 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:62334] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 21:39:42.094853 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:62334] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 21:39:42.094853 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:62334] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 22:09:24.327974 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55710] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 22:09:24.327974 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55710] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 22:09:24.327974 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55710] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 22:09:24.327974 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55710] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 22:09:24.327974 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55710] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:15:16.675071 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55513] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:15:16.675071 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55513] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:15:16.675071 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55513] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:15:16.675071 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55513] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:15:16.675071 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55513] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:18:17.461596 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55577] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:18:17.461596 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55577] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:18:17.461596 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55577] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:18:17.461596 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55577] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Mon Nov 12 23:18:17.461596 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:55577] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:05:13.931321 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56355] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:05:13.931321 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56355] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 19\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:05:13.931321 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56355] AH01215:     coun++\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:05:13.931321 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56355] AH01215:          ^\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:05:13.931321 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56355] AH01215: SyntaxError: invalid syntax\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:15:50.475123 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56547] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:15:50.475123 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56547] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 19\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:15:50.475123 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56547] AH01215:     coun++\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:15:50.475123 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56547] AH01215:          ^\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:15:50.475123 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56547] AH01215: SyntaxError: invalid syntax\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:19:36.110562 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56677] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:19:36.110562 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56677] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:19:36.110562 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56677] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 21, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:19:36.110562 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56677] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:19:36.111064 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56677] AH01215: NameError: name 'row' is not defined\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:20:40.928694 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56707] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:20:40.928694 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56707] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:20:40.928694 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56707] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 18, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:20:40.928694 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56707] AH01215:     for i in row:\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:20:40.928694 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56707] AH01215: TypeError: 'NoneType' object is not iterable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:23:41.769048 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56808] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:23:41.769048 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56808] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:23:41.769048 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56808] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 19, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:23:41.769048 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56808] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:23:41.769048 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56808] AH01215: TypeError: 'sqlite3.Cursor' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:27:20.321192 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57208] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:27:20.321192 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57208] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:27:20.321192 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57208] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 30, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:27:20.321192 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57208] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:27:20.321192 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57208] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:39:00.738161 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57642] End of script output before headers: abc.py, referer: http://localhost/login.html
+[Tue Nov 13 00:39:00.738161 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57642] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 00:39:00.738161 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57642] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 14, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 00:39:00.738161 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57642] AH01215:     ans="{\\"First\\" "+": \\""+row[2]+"\\","+" \\"Last\\""+": \\""+row[3]+"\\"}" \r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 00:39:00.738161 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57642] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 00:40:27.237154 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57698] End of script output before headers: up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:40:27.237154 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57698] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:40:27.237154 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57698] AH01215:   File "C:/Apache24/cgi-bin/up.py", line 31, in <module>\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:40:27.237154 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57698] AH01215:     ans="{\\"First\\" "+": \\""+row[0]+"\\","+" \\"Last\\""+": \\""+row[1]+"\\"}" \r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 00:40:27.237154 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57698] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/up.py, referer: http://localhost/forgot.html
+[Tue Nov 13 01:15:32.836272 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:55991] malformed header from script 'abc.py': Bad header: 0, referer: http://localhost/login.html
+[Tue Nov 13 01:17:47.593317 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56070] malformed header from script 'abc.py': Bad header: 1, referer: http://localhost/login.html
+[Tue Nov 13 01:17:47.608910 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56070] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:17:47.608910 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56070] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 27, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:17:47.608910 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56070] AH01215:     ans="{\\"First\\" "+": \\""+row[2]+"\\","+" \\"Last\\""+": \\""+row[3]+"\\"}" \r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:17:47.608910 2018] [cgi:error] [pid 6656:tid 1168] [client 127.0.0.1:56070] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:19:20.752035 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56131] malformed header from script 'abc.py': Bad header: 1, referer: http://localhost/login.html
+[Tue Nov 13 01:19:20.768195 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56131] AH01215: Traceback (most recent call last):\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:19:20.768195 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56131] AH01215:   File "C:/Apache24/cgi-bin/abc.py", line 27, in <module>\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:19:20.768195 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56131] AH01215:     ans="{\\"First\\" "+": \\""+row[2]+"\\","+" \\"Last\\""+": \\""+row[3]+"\\"}" \r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:19:20.768195 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:56131] AH01215: TypeError: 'NoneType' object is not subscriptable\r: C:/Apache24/cgi-bin/abc.py, referer: http://localhost/login.html
+[Tue Nov 13 01:29:55.481046 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57167] malformed header from script 'abc.py': Bad header: ('radhikesh1997@gmail.com', 'r, referer: http://localhost/login.html
+[Tue Nov 13 01:31:19.852894 2018] [cgi:error] [pid 6656:tid 1176] [client 127.0.0.1:57209] malformed header from script 'abc.py': Bad header: None, referer: http://localhost/login.html
+[Tue Nov 13 02:35:48.680021 2018] [cgi:error] [pid 6656:tid 1180] [client 127.0.0.1:56061] malformed header from script 'up.py': Bad header: None, referer: http://localhost/forgot.html
+[Tue Nov 13 08:57:44.430918 2018] [mpm_winnt:notice] [pid 18744:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 13 08:57:47.107198 2018] [mpm_winnt:notice] [pid 6656:tid 668] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 13 09:01:07.111360 2018] [core:warn] [pid 15468:tid 672] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 13 09:01:07.111360 2018] [mpm_winnt:notice] [pid 15468:tid 672] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Tue Nov 13 09:01:07.111360 2018] [mpm_winnt:notice] [pid 15468:tid 672] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Tue Nov 13 09:01:07.111360 2018] [core:notice] [pid 15468:tid 672] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 13 09:01:07.111360 2018] [mpm_winnt:notice] [pid 15468:tid 672] AH00418: Parent: Created child process 1128
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 13 09:01:07.486401 2018] [mpm_winnt:notice] [pid 1128:tid 160] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 13 09:24:20.558634 2018] [mpm_winnt:notice] [pid 15468:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 13 09:24:22.577424 2018] [mpm_winnt:notice] [pid 1128:tid 160] AH00364: Child: All worker threads have exited.
+[Tue Nov 13 09:24:22.598133 2018] [mpm_winnt:notice] [pid 15468:tid 672] AH00430: Parent: Child process 1128 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 13 09:25:04.545984 2018] [mpm_winnt:notice] [pid 3520:tid 696] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Tue Nov 13 09:25:04.545984 2018] [mpm_winnt:notice] [pid 3520:tid 696] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Tue Nov 13 09:25:04.545984 2018] [core:notice] [pid 3520:tid 696] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Nov 13 09:25:04.545984 2018] [mpm_winnt:notice] [pid 3520:tid 696] AH00418: Parent: Created child process 16060
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 13 09:25:04.908775 2018] [mpm_winnt:notice] [pid 16060:tid 452] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 13 10:11:45.392212 2018] [mpm_winnt:notice] [pid 3520:tid 696] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 13 10:11:47.431090 2018] [mpm_winnt:notice] [pid 16060:tid 452] AH00364: Child: All worker threads have exited.
+[Tue Nov 13 10:11:47.457217 2018] [mpm_winnt:notice] [pid 3520:tid 696] AH00430: Parent: Child process 16060 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 15 12:23:33.638643 2019] [mpm_winnt:notice] [pid 26180:tid 676] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sat Jun 15 12:23:33.638643 2019] [mpm_winnt:notice] [pid 26180:tid 676] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sat Jun 15 12:23:33.638643 2019] [core:notice] [pid 26180:tid 676] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Jun 15 12:23:33.638643 2019] [mpm_winnt:notice] [pid 26180:tid 676] AH00418: Parent: Created child process 21532
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 192.168.43.184. Set the 'ServerName' directive globally to suppress this message
+[Sat Jun 15 12:23:35.010411 2019] [mpm_winnt:notice] [pid 21532:tid 732] AH00354: Child: Starting 64 worker threads.
+[Sat Jun 15 12:32:13.633633 2019] [mpm_winnt:notice] [pid 26180:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Jun 15 12:32:15.653728 2019] [mpm_winnt:notice] [pid 21532:tid 732] AH00364: Child: All worker threads have exited.
+[Sat Jun 15 12:32:15.684999 2019] [mpm_winnt:notice] [pid 26180:tid 676] AH00430: Parent: Child process 21532 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 28 01:40:12.350659 2019] [mpm_winnt:notice] [pid 236:tid 668] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sun Jul 28 01:40:12.351161 2019] [mpm_winnt:notice] [pid 236:tid 668] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sun Jul 28 01:40:12.351161 2019] [core:notice] [pid 236:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jul 28 01:40:12.352703 2019] [mpm_winnt:notice] [pid 236:tid 668] AH00418: Parent: Created child process 2476
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 28 01:40:12.759246 2019] [mpm_winnt:notice] [pid 2476:tid 664] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 28 01:47:34.489032 2019] [mpm_winnt:notice] [pid 236:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 28 01:47:36.511486 2019] [mpm_winnt:notice] [pid 2476:tid 664] AH00364: Child: All worker threads have exited.
+[Sun Jul 28 01:47:36.649238 2019] [mpm_winnt:notice] [pid 236:tid 668] AH00430: Parent: Child process 2476 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 28 01:47:50.859212 2019] [mpm_winnt:notice] [pid 13732:tid 656] AH00455: Apache/2.4.35 (Win64) configured -- resuming normal operations
+[Sun Jul 28 01:47:50.863214 2019] [mpm_winnt:notice] [pid 13732:tid 656] AH00456: Apache Lounge VC15 Server built: Sep 19 2018 16:08:47
+[Sun Jul 28 01:47:50.863214 2019] [core:notice] [pid 13732:tid 656] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Jul 28 01:47:50.871237 2019] [mpm_winnt:notice] [pid 13732:tid 656] AH00418: Parent: Created child process 7368
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using 10.86.2.199. Set the 'ServerName' directive globally to suppress this message
+[Sun Jul 28 01:47:51.159868 2019] [mpm_winnt:notice] [pid 7368:tid 688] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 28 10:11:37.821386 2019] [mpm_winnt:notice] [pid 13732:tid 656] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 28 10:11:40.486915 2019] [mpm_winnt:notice] [pid 7368:tid 688] AH00364: Child: All worker threads have exited.

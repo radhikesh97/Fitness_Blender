@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> FORGOT PASSWORD </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+#abc{
+	color: red;
+}
+.clsname{
+width: 500px;
+height: 650px;
+background: white;
+border-style: inset;
+color: black;
+top: 60%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.clsname input[type="text"]{
+ width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+border-radius: 40px;
+}
+
+.clsname input[type="password"]{
+ width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+border-radius: 40px;
+}
+
+.clsname input[type="submit"]{
+ background-color: blue;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+.clsname h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+body{
+//background-image: url("image5.jpg");
+//background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-attachment: fixed;
+//overflow: hidden;
+//background-color: rgba(100,100,255,0.3);
+background-size: cover;
+//background-attachment: fixed; 
+//overflow: hidden;
+}
+</style>
+    </head>
+    <body>
+        <center>
+<h1 id ="abc" > FORGOT YOUR PASSWORD </h1>
+<div class="clsname">
+<h1> RESET YOUR PASSWORD HERE </h1>
+<form name="newForm" action="/cgi-bin/up.py" onsubmit="return validateForm()" method="GET">
+ENTER EMAIL ID: <br>
+<input type="email" name="fname" placeholder="Enter your E-mail ID" required><br>
+<p> ENTER SECURITY QUESTION </p>
+	<br>
+		<select name = "sel">
+			<option> Where you you born? </option>
+			<option> What is your favourite book? </option>
+			<option> What is the place you like to visit the most? </option>
+			<option> What is your favourite food? </option>
+		</select>
+	<br>
+	<br>
+<p> ENTER THE ANSWER TO THE SECURITY QUESTION </p>
+	<input type = "text" name = "ans" placeholder = "Enter security answer" required>
+ENTER YOUR NEW PASSWORD(Enter minimum of 6 characters): <br>
+<input type="password" name="lname" placeholder="Enter your new password" required><br>
+CONFIRM NEW PASSWORD: <br>
+<input type="password" name="bname" placeholder="Confirm your new password" required><br>
+<input type="Submit" value="Reset  My  Password">
+</form>
+</div>
+</center>
+    <script>
+	/*function validateEmail()
+      {
+         var emailID = document.newForm.fname.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) 
+         {
+            alert("Please enter correct email ID")
+            document.newForm.fname.focus() ;
+            return false;
+         }
+         return true ;
+      }*/
+
+
+	function validateForm(){
+		var a = document.newForm.fname.value;
+		var b = document.newForm.sel.value;
+		var c = document.newForm.ans.value;
+		var d = document.newForm.lname.value;
+		var e = document.newForm.bname.value;
+		//if(!validateEmail()){
+		//return false;
+	//}
+	if(d.length<6){
+		alert("Password length is less than six letters")
+		document.newForm.lname.value = ""
+		document.newForm.bname.value = ""
+		document.newForm.lname.focus() ;
+		return false;
+	}
+	if(d.length>20){
+		alert("Password length is greater than 20 letters")
+		document.newForm.lname.value = ""
+		document.newForm.bname.value = ""
+		document.newForm.lname.focus() ;
+		return false;
+	}
+	if(d!=e){
+		alert( "Passwords did not match" );
+		document.newForm.lname.value = ""
+		document.newForm.bname.value = ""
+        document.newForm.lname.focus() ;
+		return false;
+	}
+	return true;	
+	}
+        /*function validateForm()
+        {
+            var a = document.forms["newForm"]["lname"].value;
+            var b = document.forms["newForm"]["bname"].value;
+            var h = document.forms["newForm"]["fname"].value;
+            if(a.length>20 || b.length>20){
+                alert("Too many characters");
+                return false;
+            }
+            
+            if(a.length < 6){
+                alert("Not enough characters");
+                return false;
+            }
+            if(b != c){
+                alert("Please Ensure the password");
+                return false;
+            }
+            if(h.indexOf('@')<=0)
+
+                {
+
+                document.getElementById("Message").innerHTML="***Invalide @ position***";
+
+    		return false;
+
+                }             
+
+                if((h.charAt(h.length-4)!='.') && (h.charAt(h.length-3)!='.'))
+
+                {
+
+                document.getElementById("Message").innerHTML="***Invalide . position***";
+
+    		return false;
+
+                }	
+        }*/
+    </script>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MAINWORK PAGE </title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#id1").mouseenter(function(){
+        $("#panel1").slideDown("slow");
+    });
+	$("#id1").mouseleave(function(){
+        $("#panel1").slideUp("slow");
+    });
+	 $("#id2").mouseenter(function(){
+        $("#panel2").slideDown("slow");
+    });
+	$("#id2").mouseleave(function(){
+        $("#panel2").slideUp("slow");
+    });
+
+function loadJSON(callback) {
+
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', 'JSONData.json', true);
+  xobj.onreadystatechange = function () {
+  if (xobj.readyState == 4 && xobj.status == "200") {
+
+  // .open will NOT return a value but simply returns undefined in async mode so use a callback
+  callback(xobj.responseText);
+
+  }
+  }
+  xobj.send(null);
+
+  }
+
+  // Call to function with anonymous callback
+  loadJSON(function(response) {
+  // Do Something with the response e.g.
+
+  jsonresponse = JSON.parse(response);
+  var str = jsonresponse.First +" "+ jsonresponse.Last;
+  document.getElementById("def").innerHTML = str
+  /*for(i=1 ; i<=jsonresponse.First.length-1 ; i++){
+
+  }*/
+
+  // Assuming json data is wrapped in square brackets as Drew suggests
+  });
+});
+</script>
+</head>
+<style>
+marquee {
+	width: 100%;
+	background-color: blue;
+}
+body{
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+ //overflow: hidden;
+}
+.cls1{
+top: 100px;
+left: 220px;
+//float: left;
+position: absolute;
+}
+
+.cls2{
+top: 100px;
+left: 800px;
+//float: center;
+position: absolute;
+}
+#panel1{
+	height: 250px;
+	width: 200px;
+	top: 142px;
+	left: 190px;
+	background-color: yellow;
+}
+#panel2{
+	height: 257px;
+	width: 200px;
+	top: 140px;
+	left: 800px;
+	background-color: yellow;
+}
+#panel1,#panel2{
+	position: absolute;
+    display: none;
+	border: 1px solid black;
+`	//background-color: yellow;
+}
+#abc{
+float: right;
+width: 100px;
+height: 50px;
+background-color: yellow;
+}
+#def{
+float: left;
+}
+</style>
+<body>
+<marquee style="color:red"><b> WELCOME TO OUR WEBSITE FOR GUIDENCE ON NUTRITION AND WORKOUT CLICK BELOW </b></marquee>
+<p id="def"></p>
+<a href = "home.html"> <button id="abc"> <b>Logout</b> </button></a>
+<div class="cls1">
+<h2 id="id1" style="color:red"> WORKOUT </h2>
+<a href="mainpage.html"><img src="homeworkout.jpg" width="400px" height="400px"></a>
+</div>
+<div class="cls2">
+<h2 id="id2" style="color:red"> NUTRITION </h2>
+<a href="nutrition.html"><img src="pic1.jpg" width="400px" height="400px"></a>
+</div>
+<div id="panel1">
+No matter what is your current fitness level and what are the resources available to you we help you to achieve your goals by giving you a brief workout plan based on your convinience. Follow our plans according to the schedule we provide you based on your current fitness level and progress gradually. So no more excuses, all the best in your fitness journey.
+</div>
+<div id="panel2">
+Really want to change your life!!!Then its time to change your diet...We provide you details about healthy eating and nutrition, the whole foods you should be ideally eating in order to stay healthy and stay fit. Based on your goals we provide you the amount of calories you should be consuming in a daily/weekly basis and the best food sources in order to hit your protein and carbs goals 
+</div>
+</body>
+</html>

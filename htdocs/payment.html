@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body{
+margin: 0;
+padding: 0;
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+//background-image: url("image5.jpg");
+//background-repeat: no-repeat;
+//background-size: 100%;
+//background-color: rgba(100,100,255,0.3);
+//background-size: cover;
+//background-position: center;
+//font-family: sans-serif;
+//background-attachment: fixed; 
+}
+
+.loginbox{
+width: 400px;
+height: 750px;
+background: #000;
+color: #fff;
+top: 90%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 50px 30px;
+}
+
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox select{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+   border: none;
+   outline: none;
+   height: 40px;
+   font-size: 18px;
+   border-radius: 10px;
+}
+
+        </style>
+    </head>
+    <body>
+      <div class="loginbox">
+	<img src="D:/download.png" class="avatar">
+	<h1> PAYMENT GATEWAY </h1>
+	<form name="newForm" action="thankyou.html" onsubmit="return validateForm()" method="Post">
+	<!--<p> USERNAME(*)(max length 20 characters) </p>
+        <input type="text" name="uname1" placeholder="Enter Username" onKeyup="lettersOnly(this)" required>-->
+	<p> CARD NUMBER </p>
+        <input type="text" name="fname" placeholder="Enter Your Card Number" onKeyup="numbersOnly(this)" required>
+	<p> EXPIRATION DATE </p>
+        <input type="date" name="lname" placeholder="Enter the card expiration date" required>
+	<p> CV CODE(*)(enter the correct code format) </p>
+        <input type="text" name="uname2" placeholder="Enter CV code" onKeyup="numbersOnly(this)" required>
+	<br>
+	<br>
+       <!-- <p> ACCOUNT TYPE(*)(should be either current or savings) </p>
+	<input type="text" name="acc_type" placeholder="Enter Account number" onKeyup="lettersOnly(this)" required>
+	<p> BALANCE(*)(should be atleast Rs.1000) </p>
+        <input type="text" name="balance" placeholder="Enter balance" onKeyup="numbersOnly(this)" required> 
+	<p> BRANCH CODE(*) </p>
+        <input type="text" name="bcode" placeholder="Enter branch code" onKeyup="numbersOnly(this)" required> 
+	<p> BRANCH ADDRESS(*) </p>
+        <input type="text" name="baddress" placeholder="Enter branch address" onKeyup="lettersOnly(this)" required> -->
+	<input type="submit" value="PAY">
+	</form>
+	</div>
+        <script>
+function numbersOnly(input){
+var regex = /[^0-9]/gi;
+input.value = input.value.replace(regex, "");
+}
+
+function validateForm(){
+var a = document.forms["newForm"]["fname"].value;
+var b = document.forms["newForm"]["lname"].value;
+var c = document.forms["newForm"]["uname2"].value;
+if(a.length != 16){
+alert("wrong card number");
+return false;
+}
+if(c.length != 3){
+alert("wrong cvc code");
+return false;
+}
+return true;
+}
+</script>
+    </body>
+</html>

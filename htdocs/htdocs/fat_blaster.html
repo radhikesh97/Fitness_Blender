@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MAIN PAGE </title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#cls2").click(function(){
+		document.getElementById("panel2").innerHTML = "<center>" +"<h1>" + "THE ROUTINE" + "</h1>"+ "</center>";
+		//document.getElementById("panel2").innerHTML += "<ul>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "1.High Knee Taps" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "1.Run in place" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "1.Tuck Jumps" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "2.Jumping jacks" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "2.Jump rope" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "2.Butt kicks" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "3.squats jumps" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "3.squat jacks" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "3.jump lunges" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "4.Burpees" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "4.explosive push ups" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "4.regular to diamond push ups" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "5.Mountain Climbers" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "5.In and Outs" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "5.Running Plank" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "6.Bicycles" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "6.Jacknife" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "6.Toe Touches" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "7.Flutter Kicks" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "7.Seated In and Outs" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "7.Hip Raises" + "<br>";
+		var x = Math.floor((Math.random() * 3) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "8.Plank" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "8.Plank Knees to elbow" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "8.Russian Twist" + "<br>";
+		document.getElementById("panel2").innerHTML += "<br>";
+		document.getElementById("panel2").innerHTML += "<br>";
+		//document.getElementById("panel2").innerHTML += "</ul>";
+		document.getElementById("panel2").innerHTML += "<b>" + "** Perform each exercise for 30sec followed by 10 seconds of rest **" + "</b>" + "<br>" + "<br>";
+		document.getElementById("panel2").innerHTML += "<b>" + "** Rest for 1 minute-1:30 minutes in between rounds**" + "</b>" + "<br>" + "<br>";
+		document.getElementById("panel2").innerHTML += "<b>" + "** Before starting this routine do a few dynamic streches such as arm circles hip circles etc... or perform this routine at low intersity for a round just to properly warm your body**" + "</b>" + "<br>" + "<br>";
+        //$("#panel2").slideToggle("slow");
+    });
+});
+</script>
+</head>
+<style>
+num1 {
+	width: 100%;
+	background: blue;
+}
+button{
+background-color: olive;
+color: white;
+font-size: 30px;
+}
+body{
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+ //overflow: hidden;
+}
+
+#cls2{
+top: 702px;
+left: 520px;
+width: 200px;
+height: 100px;
+//float: center;
+position: absolute;
+}
+
+
+#panel2{
+	top: 250px;
+	left: 450px;
+	width: 400px;
+	height: 450px;
+}
+
+
+
+#panel2{
+	position: absolute;
+    //display: none;
+	border: 1px solid black;
+	background-color: yellow;
+}
+#abc{
+float: right;
+width: 115px;
+height: 50px;
+background-color: yellow;
+}
+</style>
+<body>
+<a href = "home.html"> <button id="abc"> <b>Logout</b> </button></a>
+<center>
+<h1> FAT BURNING WORKOUT </h1>
+</center>
+<marquee id="num1" style="color:red"><b> **BELOW IS A FAT BURNING ROUTINE NOW YOU HAVE TO JUDGE YOURSELF AT WHAT CURRENT FITNESS LEVEL YOU ARE AND PERFORM EXERCISES ACCORDINGLY** </b></marquee>
+<ul type="circle">
+<li> **Beginners Perform this routine 3 times** </li>
+<li> **Intermediate Perform this routine 4 times** </li>
+<li> **Advance follow this routine 5 times** </li>
+<li> **If you want to change the existing routine click on modify routine** </li>
+<button id="cls2"> Modify Routine </button>
+<div id="panel2">
+<center>
+<h1> THE ROUTINE </h1>
+</center>
+ 1.High knee taps<br> 
+ 2.Jumping Jacks<br>
+ 3.squat jumps<br> 
+ 4.Burpees<br> 
+ 5.mountain climbers<br> 
+ 6.Bicycles<br> 
+ 7.flutter kicks<br> 
+ 8.Plank hold<br> 
+<br>
+<br>
+<b>** Perform each exercise for 30sec followed by 10 seconds of rest **</b><br><br>
+<b>** Rest for 1 minute-1:30 minutes in between rounds**</b><br><br>
+<b>** Before starting this routine do a few dynamic streches such as arm circles hip circles etc... or perform this routine at low intersity for a round just to properly warm your body**</b>
+</div>
+</body>
+</html>

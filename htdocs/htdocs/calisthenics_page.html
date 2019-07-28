@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> MAIN PAGE </title>
+<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#cls1").click(function(){
+		document.getElementById("panel1").innerHTML = "warm up" + "<br>";
+		document.getElementById("panel1").innerHTML += "1.jump rope(50 skips with rope)" + "<br>";
+		document.getElementById("panel1").innerHTML += "2.jumping jacks(30 seconds)" + "<br>";
+		document.getElementById("panel1").innerHTML += "3.high knee taps(30 seconds)" + "<br>";
+		document.getElementById("panel1").innerHTML += "4.Plank hold(20 seconds)" + "<br>";
+		document.getElementById("panel1").innerHTML += "<center>" + "** Complete the warm up 3 times **" + "</center>" + "<br>";
+		document.getElementById("panel1").innerHTML += "<h1>" + "THE WORKOUT" + "</h1>" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel1").innerHTML += "1.squats(15 reps)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel1").innerHTML += "1.lunges(8 reps each leg)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel1").innerHTML += "1.side squats(5 reps each side)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel1").innerHTML += "1.squat pulse(15 reps)" + "<br>";
+		document.getElementById("panel1").innerHTML += "2.push ups(alternative: knee pushups/elevated(vary the angle to increse or decrease difficulty) push ups) (10 reps)" + "<br>";
+		document.getElementById("panel1").innerHTML += "3.wide push ups(alternative: wide knee pushups/elevated(vary the angle to increse or decrease difficulty) push ups) (10 reps)" + "<br>";
+		document.getElementById("panel1").innerHTML += "4.Australlian Pull ups(15 reps)" + "<br>";
+		document.getElementById("panel1").innerHTML += "5.Jumping pull ups(10 reps)" + "<br>";
+		document.getElementById("panel1").innerHTML += "6.Tricep pushups(alternative: Tricep knee pushups/elevated(vary the angle to increse or decrease difficulty) push ups)(10 reps)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel1").innerHTML += "7.Toe touches(20 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel1").innerHTML += "7.leg raises(20 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel1").innerHTML += "7.seated russian twist(20 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel1").innerHTML += "7.bicycles(20 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "7.Toe touches(20 seconds)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel1").innerHTML += "8.Mountain climbers(30 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel1").innerHTML += "8.ski jumps(30 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel1").innerHTML += "8.lateral runs(30 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel1").innerHTML += "8.jump squats(30 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "8.Mountain climbers(30 seconds)" + "<br>";
+		document.getElementById("panel1").innerHTML += "<marquee>" + "** Reps given above are our recommendations you can modify them according to you **" + "</marquee>" + "<br>";
+		document.getElementById("panel1").innerHTML += "<center>" + "** Complete the routine 3 times to complete workout **" + "</center>" + "<br>";
+        //$("#panel1").slideToggle("slow");
+		$("#panel1").slideDown("slow");
+		$("#panel2").slideUp("slow");
+		$("#panel3").slideUp("slow");
+    });
+	$("#cls2").click(function(){
+		//document.getElementById("#panel1").innerHTML = "squat";
+		document.getElementById("panel2").innerHTML = "warm up" + "<br>";
+		document.getElementById("panel2").innerHTML += "1.jump rope(100 skips with rope)" + "<br>";
+		document.getElementById("panel2").innerHTML += "2.jumping jacks(45 seconds)" + "<br>";
+		document.getElementById("panel2").innerHTML += "3.high knee taps(45 seconds)" + "<br>";
+		document.getElementById("panel2").innerHTML += "4.Plank hold(30 seconds)" + "<br>";
+		document.getElementById("panel2").innerHTML += "<center>" + "** Complete the warm up 3 times **" + "</center>" + "<br>";
+		document.getElementById("panel2").innerHTML += "<h1>" + "THE WORKOUT" + "</h1>" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "1.squats(20 reps)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "1.back lunges(10 reps each leg)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "1.side squats(5 reps each side)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel2").innerHTML += "1.forward lunges(10 reps each leg)" + "<br>";
+		document.getElementById("panel2").innerHTML += "2.explosive push ups(10 reps)" + "<br>";
+		document.getElementById("panel2").innerHTML += "3.Hindu push ups(10 reps)" + "<br>";
+		document.getElementById("panel2").innerHTML += "4.pull ups(10 reps)" + "<br>";
+		document.getElementById("panel2").innerHTML += "5.chin ups(10 reps)" + "<br>";
+		document.getElementById("panel2").innerHTML += "6.diamond pushups(alternative: Tricep knee pushups/elevated(vary the angle to increse or decrease difficulty) push ups)(10 reps)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "7.alternate Toe touches(30 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "7.seated in and outs(30 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "7.russian twist(30 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel2").innerHTML += "7.flutter kicks(30 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "7.Toe touches(20 seconds)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel2").innerHTML += "8.Mountain climbers(40 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel2").innerHTML += "8.high knees(run in place)(40 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel2").innerHTML += "8.squat jacks(40 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel2").innerHTML += "8.half burpee(40 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "8.Mountain climbers(30 seconds)" + "<br>";
+		document.getElementById("panel2").innerHTML += "<marquee>" + "** Reps given above are our recommendations you can modify them according to you **" + "</marquee>" + "<br>";
+		document.getElementById("panel2").innerHTML += "<center>" + "** Complete the routine 4 times to complete workout **" + "</center>" + "<br>";
+        //$("#panel2").slideToggle("slow");
+		$("#panel2").slideDown("slow");
+		$("#panel1").slideUp("slow");
+		$("#panel3").slideUp("slow");
+    });
+	$("#cls3").click(function(){
+		//document.getElementById("#panel1").innerHTML = "squat";
+		document.getElementById("panel3").innerHTML = "warm up" + "<br>";
+		document.getElementById("panel3").innerHTML += "1.jump rope(200 skips with rope)" + "<br>";
+		document.getElementById("panel3").innerHTML += "2.jumping jacks(60 seconds)" + "<br>";
+		document.getElementById("panel3").innerHTML += "3.high knee taps(60 seconds)" + "<br>";
+		document.getElementById("panel3").innerHTML += "4.Plank hold(40 seconds)" + "<br>";
+		document.getElementById("panel3").innerHTML += "<center>" + "** Complete the warm up 2 times **" + "</center>" + "<br>";
+		document.getElementById("panel3").innerHTML += "<h1>" + "THE WORKOUT" + "</h1>" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel3").innerHTML += "1.tuck jump squats(10 reps)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel3").innerHTML += "1.assisted pistol squats(5 reps each leg)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel3").innerHTML += "1.single leg deadlift(10 reps each side)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel3").innerHTML += "1.jump lunges(45 seconds)" + "<br>";
+		document.getElementById("panel3").innerHTML += "2.explosive clap push ups(10 reps)" + "<br>";
+		document.getElementById("panel3").innerHTML += "3.pike push ups(10 reps)" + "<br>";
+		document.getElementById("panel3").innerHTML += "4.waist pull ups(10 reps)" + "<br>";
+		document.getElementById("panel3").innerHTML += "5.chin ups to headbangers(10 reps)" + "<br>";
+		document.getElementById("panel3").innerHTML += "6.diamond to regular pushups(alternative: Tricep knee pushups/elevated(vary the angle to increse or decrease difficulty) push ups)(10 reps)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel3").innerHTML += "7.hanging leg raises(30 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel3").innerHTML += "7.ab wheel(30 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel3").innerHTML += "7.L sit(30 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel3").innerHTML += "7.plank knees to elbow(30 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "7.Toe touches(20 seconds)" + "<br>";
+		var x = Math.floor((Math.random() * 4) + 1);
+		if(x == 1)
+			document.getElementById("panel3").innerHTML += "8.Mountain climbers(40 seconds)" + "<br>";
+		else if(x == 2)
+			document.getElementById("panel3").innerHTML += "8.Butt kickers(run in place)(40 seconds)" + "<br>";
+		else if(x == 3)
+			document.getElementById("panel3").innerHTML += "8.In and outs(40 seconds)" + "<br>";
+		else if(x == 4)
+			document.getElementById("panel3").innerHTML += "8.burpees(40 seconds)" + "<br>";
+		//document.getElementById("panel1").innerHTML += "8.Mountain climbers(30 seconds)" + "<br>";
+		document.getElementById("panel3").innerHTML += "<marquee>" + "** Reps given above are our recommendations you can modify them according to you **" + "</marquee>" + "<br>";
+		document.getElementById("panel3").innerHTML += "<center>" + "** Complete the routine 4 times to complete workout **" + "</center>" + "<br>";
+        //$("#panel3").slideToggle("slow");
+		$("#panel3").slideDown("slow");
+		$("#panel1").slideUp("slow");
+		$("#panel2").slideUp("slow");
+    });
+});
+</script>
+</head>
+<style>
+num1 {
+	width: 100%;
+	background: blue;
+}
+button{
+background-color: olive;
+color: white;
+font-size: 30px;
+}
+body{
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-size: cover;
+ //overflow: hidden;
+}
+#cls1{
+top:150px;
+left: 10px;
+width: 400px;
+height: 100px;
+//float: left;
+position: absolute;
+}
+
+#cls2{
+top: 150px;
+left: 450px;
+width: 400px;
+height: 100px;
+//float: center;
+position: absolute;
+}
+
+#cls3{
+top: 150px;
+left: 900px;
+width: 400px;
+height: 100px;
+//float: right;
+position: absolute;
+}
+
+
+#panel1{
+	top:250px;
+	left: 10px;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+}
+
+
+#panel2{
+	top: 250px;
+	left: 450px;
+	width: 400px;
+	height: 500px;
+}
+
+
+#panel3{
+	top: 250px;
+	left: 900px;
+	width: 400px;
+	height: 500px;
+}
+
+#panel1,#panel2,#panel3{
+	position: absolute;
+    display: none;
+	border: 1px solid black;
+	background-color: yellow;
+}
+#abc{
+float: right;
+width: 115px;
+height: 50px;
+background-color: yellow;
+}
+</style>
+<body>
+<a href = "home.html"> <button id="abc"> <b>Logout</b> </button></a>
+<center>
+<h1> CHOOSE YOUR LEVEL OF WORKOUT </h1>
+</center>
+<marquee id="num1" style="color:red"><b> **CHOOSE APPROPRIATELY ACCORDING TO YOUR CURRENT LEVEL OF FITNESS AND PROGRESS GRADUALLY** </b></marquee>
+<button id="cls1"> BEGINNER </button>
+<button id="cls2"> INTERMEDIATE </button>
+<button id="cls3"> ADVANCE </button>
+<div id="panel1">
+</div>
+<div id="panel2">
+</div>
+<div id="panel3">
+</div>
+</body>
+</html>

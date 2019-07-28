@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> FORGOT PASSWORD </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+.clsname{
+width: 500px;
+height: 450px;
+background: white;
+border-style: inset;
+color: black;
+top: 55%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.clsname input[type="text"]{
+ width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+border-radius: 40px;
+}
+
+.clsname input[type="password"]{
+ width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+border-radius: 40px;
+}
+
+.clsname input[type="submit"]{
+ background-color: blue;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+.clsname h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+}
+body{
+//background-image: url("image5.jpg");
+//background-repeat: no-repeat;
+background-size: 100%;
+background-color: rgba(100,100,255,0.3);
+background-attachment: fixed;
+overflow: hidden;
+//background-color: rgba(100,100,255,0.3);
+//background-size: cover;
+//background-attachment: fixed; 
+//overflow: hidden;
+}
+</style>
+    </head>
+    <body>
+        <center>
+<h1> FORGOT YOUR PASSWORD </h1>
+<div class="clsname">
+<h1> RESET YOUR PASSWORD HERE </h1>
+<form name="ConfirmForm" action="resetServlet" onsubmit="return validateForm()" method="Get">
+ENTER EMAIL ID: <br>
+<input type="text" name="fname" placeholder="Enter your E-mail ID" required><br>
+ENTER YOUR PASSWORD(Enter minimum of 6 characters): <br>
+<input type="password" name="lname" placeholder="Enter your password" required><br>
+CONFIRM PASSWORD: <br>
+<input type="password" name="bname" placeholder="Confirm your password" required><br>
+<input type="Submit" value="Reset  My  Password">
+</form>
+</div>
+</center>
+    <script>
+        function validateForm()
+        {
+            var a = document.forms["newForm"]["lname"].value;
+            var b = document.forms["newForm"]["bname"].value;
+            var h = document.forms["newForm"]["fname"].value;
+            if(a.length>20 || b.length>20){
+                alert("Too many characters");
+                return false;
+            }
+            
+            if(a.length < 6){
+                alert("Not enough characters");
+                return false;
+            }
+            if(b != c){
+                alert("Please Ensure the password");
+                return false;
+            }
+            if(h.indexOf('@')<=0)
+
+                {
+
+                document.getElementById("Message").innerHTML="***Invalide @ position***";
+
+    		return false;
+
+                }             
+
+                if((h.charAt(h.length-4)!='.') && (h.charAt(h.length-3)!='.'))
+
+                {
+
+                document.getElementById("Message").innerHTML="***Invalide . position***";
+
+    		return false;
+
+                }	
+        }
+    </script>
+    </body>
+</html>
